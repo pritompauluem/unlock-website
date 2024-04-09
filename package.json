@@ -1,0 +1,23 @@
+{
+  "name": "everyday_typetest",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "setup": "npx tsc --init",
+    "build": "bash build.bash",
+    "watch": "npx nodemon ."
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chrome": "^0.0.251",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
